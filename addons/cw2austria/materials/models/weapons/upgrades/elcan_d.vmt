@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/upgrades/Elcan"
+	"$surfaceprop" "metal"
+	"$model" "1"
+	  $nocull 1
+}

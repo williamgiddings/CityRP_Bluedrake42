@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\evo_sights\scorpion_d"
+	"$bumpmap" "models\weapons\evo_sights\scorpion_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[0 0 0]"
+	"$envmapcontrast" 1
+	"$phong" 1
+	"$phongboost" 0.5
+	"$phongexponenttexture" "models\weapons\evo_sights\scorpion_s"
+	"$phongfresnelranges" "[.2 1 0]"
+	"$phongalbedotint" 1
+	"$rimlight"     "1"
+	"$rimlightexponent"   "100" 
+	"$rimlightboost"   "0"
+}

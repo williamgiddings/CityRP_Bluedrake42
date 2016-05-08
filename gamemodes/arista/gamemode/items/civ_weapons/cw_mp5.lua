@@ -1,0 +1,11 @@
+ITEM.name					= "H&K MP5"
+ITEM.plural				= "H&K MP5s"
+ITEM.size					= 4
+ITEM.cost					= 3000
+ITEM.model				= "models/weapons/w_smg_mp5.mdl"
+ITEM.batch				= 10
+ITEM.store				= true
+ITEM.description	= "Vercatile submachine gun chambered for 9x19mm (.40) parabellum."
+ITEM.ammo					= "9x19MM"
+ITEM.weaponType		= TYPE_LARGE
+ITEM.base					= "weapon"

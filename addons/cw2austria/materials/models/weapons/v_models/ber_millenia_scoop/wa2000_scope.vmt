@@ -1,0 +1,31 @@
+"vertexlitgeneric"
+{
+		//defining textures
+		$basetexture					"models\weapons\v_models\ber_millenia_scoop\SCOPE-D"
+		$bumpmap						"models\weapons\v_models\ber_millenia_scoop\SCOPE-NS"
+		$phongexponenttexture			"models\weapons\v_models\ber_millenia_scoop\SCOPE-EXP"
+		
+		//some random variables
+		$normalmapalphaenvmapmask		1
+		$normalmapalphaphongmask		1
+		$nocull							1
+		
+		//envmap reflection
+		$envmap							env_cubemap
+		$envmaptint						"[ 0.09 0.1 0.12 ]"
+		$envmapfresnel					0
+		
+		//phong
+		$phong							1
+		$phongboost						0
+		$phongtint						"[ 0.9 0.9 1.1 ]"
+		$phongfresnelranges				"[ 1.2 1.8 2.4 ]"
+		$phongalbedotint				1
+		$phongalbedoboost				24
+		
+		//rimlight
+		$rimlight						0
+		$rimlightexponent				60
+		$rimlightmask					1
+		$rimlightboost					0.2
+}

@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\v_models\crash_ber_millenia_scout\diffuse"
+	"$bumpmap" "models\weapons\v_models\crash_ber_millenia_scout\normals"
+ 
+	"$phong"      "1"
+	"$phongboost"     "0.2"
+	"$phongexponenttexture" "models\weapons\v_models\crash_ber_millenia_scout\scout_exponent"
+	"$phongfresnelranges"   "[5 10 10]"
+ 
+	"$envmap"      "env_cubemap"
+	"$envmaptint"     "[ 0.005 0.01 0.012 ]"
+ 
+	"$rimlight"     "1"
+	"$rimlightexponent"   "300" 
+	"$rimlightboost"   "0.3"
+}

@@ -1,0 +1,86 @@
+[X] = Complete.
+[#] = Partialy complete.
+[-] = Unconfirmed.
+[ ] = Confirmed but uncomplete.
+
+- SV
+[X] Serverside Items Handling
+[X] Chat handler (OOC/IC/Ranged)
+[X] Prop-protection
+	[X] CPPI rather than intergrated
+	[-] Make CPPI fallback work decently without external
+[X] Missing commands (a lot of them)
+	[X] Administration
+	[X] Menu Handling
+	[X] Chat Handling
+	[X] General RP Commands
+[X] Containers
+[X] Contraband
+[X] Old Items
+[X] SQL
+
+- Fix
+[X] Find issue with job string
+[X] Double disconnect message
+[X] E + Shift doesnt work on deployed items
+[X] Stamina exhausted might not be networked properly? potential clientside jump prohibiter broken
+[X] Access is not returned to rejoining players correctly
+[-] Readd sound to QButtons in derma implementation
+[X] Find a better way to do ExtraInit that doesn't require timers (fucking garry)
+[-] Fix unownable door-groups (master/slaves)
+[X] Name validation, alpha only, length, ect
+[-] Missing language strings (mainly commands, check using command)
+[X] Flipping cars restarts engine even if damaged.
+[ ] Fix car view offsets
+[X] Disable firespread command
+[ ] Setowner for entire groups
+
+- Update / Improve
+[-] Remake HUD Design
+[X] Remake Derma Design
+[-] Chatbox (possibly bug ghosty to finish CBox)
+[X] Engine notification
+[X] Hunger notification
+[-] Make mayor salary change with tax
+[X] Move to NW3 or some other improved networking system
+[ ] Petrol + garage for cars, locations per map
+[#] Lockpicking
+
+- CL
+[X] Clientside Inventory GUI
+[X] Clientside Shop GUI
+[X] Clientside Container GUI
+[X] Missing Main Menu Compontent
+	[X] Laws
+	[-] Rules
+	[X] Command help
+	[X] Credits
+	[-] Changelog
+[X] Chatbox
+
+- Plugins
+[X] Plugin mangement/handling
+
+[X] Vehicle handling
+	[X] Main
+	[X] Damage/Health
+[X] Officals
+[X] Hunger
+[X] Flashlight battery
+[X] Door management (saving)
+[X] Stamina
+[X] Prison spawnpoints
+[X] Oxygen
+[-] Map detailing
+
+- Potential Plguins / Additions
+[-] Wandering NPCs
+[-] Guesture menu (hands up, ect)
+[-] Realistic text signs (with actual models)
+[-] Area display (intergrated); people really like this idea
+[-] Pickpocketing GUI (container that shows currently equiped weapons), use on chloroformed/sleeping
+
+- Finalising
+[X] CLOSED-ALPHA (1 day closed testing for immediate, easily spottable errors) (12 Slots)
+[X] ALPHA (2 days open testing for not so easily spottable errors) (16 Slots)
+[ ] BETA (5 days open testing for underlying issues, small bugs, improvements ect) (24 Slots)

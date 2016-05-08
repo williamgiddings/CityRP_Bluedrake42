@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	$basetexture			"models\weapons\upgrades\elcan_c"
+	$bumpmap 				"models\weapons\upgrades\elcannorm"
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongtint"                    "[1 1 1]"
+
+	"$phongboost"                   "0"
+	"$phongexponent"                "64"
+	"$phongfresnelranges"           "[.9 2 10]"
+
+
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"                   "[.1 .1 .1]"
+	  $nocull 1
+}
+

@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture"  "models\weapons\v_models\SlaYeR's_SCARH/Lense2"
+	//"$translucent" 0
+	//"$envmap" "env_cubemap"
+	//"$envmapmask" "models\weapons\v_models\SlaYeR's_SCARH/Lense_Spec"
+                //"$envmaptint" "[1.00 1.25 1.59]"
+	//"$envmapcontrast" 0.8
+	//"$envmapsaturation" 0.7
+}

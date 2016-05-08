@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/weapons/upgrades/lens_D"
+	"$surfaceprop" "metal"
+	"$model" "1"
+	  $nocull 1
+}

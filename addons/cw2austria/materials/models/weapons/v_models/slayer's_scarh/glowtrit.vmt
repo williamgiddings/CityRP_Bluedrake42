@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\SlaYeR's_SCARH\GlowTrit"
+	//"$translucent" 1
+	"$selfillum"1
+	//"$additive"1
+	//"$halflambert" 	"1"
+}

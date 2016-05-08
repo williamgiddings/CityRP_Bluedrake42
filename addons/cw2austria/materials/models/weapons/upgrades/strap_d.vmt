@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/upgrades/strap_D"
+	"$surfaceprop" "metal"
+	"$model" "1"
+}

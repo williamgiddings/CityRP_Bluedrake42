@@ -1,0 +1,25 @@
+"Vertexlitgeneric"
+{
+	"$basetexture"  		"models\weapons\v_models\Steyr AUG\augrails_col_adj"
+	"$bumpmap"     			"models\weapons\v_models\Steyr AUG\augrails_nor"
+
+	"$envmap" 			"env_cubemap"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	"$normalmapalphaphongmask"    	"1"
+
+	"$envmaptint" 			"[.125 .125 .125]"
+	
+	$phong 1
+	$phongexponent 			"70"
+	$phongboost 			"0.7"
+	$phongfresnelranges		"[1 1 1]"
+	"$phongalbedotint"		"1"
+
+
+
+	"$rimlight" 			"1"
+	"$rimlightexponent" 		"75"	
+	"$rimlightboost"		"0.1"
+	"$rimmask" 			"1"
+}

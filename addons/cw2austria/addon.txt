@@ -1,0 +1,7 @@
+// Extracted with MulleDK19's GMAD Extractor
+"AddonInfo"
+{
+	"name" "Kings Of Austria"
+	"author_name" "Author Name"
+	"info" " { 	"description": "Description", 	"type": "weapon", 	"tags":  	[ 		"cartoon", 		"fun" 	] }"
+}

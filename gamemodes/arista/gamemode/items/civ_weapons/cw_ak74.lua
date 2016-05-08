@@ -1,0 +1,11 @@
+ITEM.name					= "AK-74"
+ITEM.plural				= "AK-74s"
+ITEM.size					= 5
+ITEM.cost					= 4500
+ITEM.model				= "models/weapons/w_rif_ak47.mdl"
+ITEM.batch				= 10
+ITEM.store				= true
+ITEM.description	= "Tough and reliable 39mm assualt rifle."
+ITEM.ammo					= "5.45x39MM"
+ITEM.weaponType		= TYPE_LARGE
+ITEM.base					= "weapon"

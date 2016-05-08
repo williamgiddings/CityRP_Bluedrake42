@@ -1,0 +1,18 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\long_supp_millenia\sup"
+	"$bumpmap" "models\weapons\long_supp_millenia\sup_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[0 0 0]"
+	"$envmapcontrast" 1
+	"$phong" 1
+	"$phongboost" 1
+	"$phongexponenttexture" "models\weapons\long_supp_millenia\sup_m"
+	"$phongfresnelranges" "[.2 1 0]"
+	"$phongalbedotint" 1
+	"$rimlight"     "1"
+	"$rimlightexponent"   "100" 
+	"$rimlightboost"   "0.4"
+	"$nocull" 			"1"
+}

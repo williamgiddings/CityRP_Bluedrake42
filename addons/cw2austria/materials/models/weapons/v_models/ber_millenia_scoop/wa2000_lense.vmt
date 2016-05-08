@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture"                  "models\weapons\v_models\ber_millenia_scoop\Lense2"
+    "$bumpmap"                      "models\weapons\v_models\ber_millenia_scoop\wa2000_lense_normal"
+    "$translucent"                  "0"	
+}

@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$baseTexture" "weapons\cw2\upgrades\Docter_Sight"
+	"$envmapmask" "weapons\cw2\upgrades\Docter_Sight_Ref"
+	"selfillum"                     "1"
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	"$phongtint"                    "[.67 .9 1]"
+	"$phongboost"                   ".6"
+	"$phongexponent"                "40"
+	"$phongfresnelranges"           "[1.5 8 20]"
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"                   "[0.05 0.05 0.05]"
+}

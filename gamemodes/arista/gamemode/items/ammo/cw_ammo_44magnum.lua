@@ -1,0 +1,10 @@
+ITEM.name					= ".44 Rounds"
+ITEM.size					= 1
+ITEM.cost					= 850
+ITEM.model				= "models/Items/BoxSRounds.mdl"
+ITEM.batch				= 10
+ITEM.store				= true
+ITEM.plural				= ".44 Rounds"
+ITEM.description	= "Rounds .44 caliber weapons."
+ITEM.base					= "cw_ammo_ent_base"
+ITEM.ammo					= {".44 Magnum", 6}
