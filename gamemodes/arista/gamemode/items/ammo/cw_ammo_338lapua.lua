@@ -6,5 +6,5 @@ ITEM.batch				= 10
 ITEM.store				= true
 ITEM.plural				= ".338 Lapua Rounds"
 ITEM.description	= "Rounds for any kind of automatic rifle."
-ITEM.base					= "cw_ammo_ent_base"
+ITEM.base					= "ammo"
 ITEM.ammo					= {".338 Lapua", 5}
