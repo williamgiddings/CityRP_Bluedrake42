@@ -6,5 +6,5 @@ ITEM.batch				= 10
 ITEM.store				= true
 ITEM.plural				= "9x19mm Rounds"
 ITEM.description	= "Rounds for 9mm weapons."
-ITEM.base					= "cw_ammo_ent_base"
+ITEM.base					= "ammo"
 ITEM.ammo					= {"9x19MM", 30}
