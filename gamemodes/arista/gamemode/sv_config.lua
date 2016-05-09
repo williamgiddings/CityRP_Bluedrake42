@@ -32,4 +32,7 @@ arista.config.database = {
 	inventory = {},
 	-- Used for IC chat and stuff.
 	rpname = "",
+	
+	IsModerator = false,
+	--Is the user a moderator
 }
