@@ -77,7 +77,7 @@ function SWEP:Initialize()
 	self.Primary.NextSwitch = CurTime()
 	self:SetWeaponHoldType("normal")
 	self.stamina = GAMEMODE:GetPlugin("stamina")
-	self.Owner:SetNetworkedBool("raisedFists", false)
+	self.Owner:SetNWBool("raisedFists", false)
 end
 
 if CLIENT then
@@ -85,7 +85,7 @@ if CLIENT then
 end
 function SWEP:Deploy()
 	
-	if (self.Owner:GetNetworkedBool("raisedFists") ==true) then
+	if (self.Owner:GetNWBool("raisedFists") ==true) then
 		self:SetWeaponHoldType("fist")
 		local vm = self.Owner:GetViewModel()
 		vm:SendViewModelMatchingSequence(vm:LookupSequence("fists_draw"))
@@ -120,7 +120,7 @@ function SWEP:Reload()
 	local vm = self.Owner:GetViewModel()
 
 	if CurTime() >= self.NextHolster then
-		if (self.Owner:GetNetworkedBool("raisedFists") ==true) then
+		if (self.Owner:GetNWBool("raisedFists") ==true) then
 			vm:SetNoDraw(true)
 			self:SetWeaponHoldType("normal")
 			self.Owner:PrintMessage( HUD_PRINTCENTER, "You lower your fists" )
@@ -140,7 +140,7 @@ end
 
 function SWEP:PrimaryAttack(right)
 	
-	if (self.Owner:GetNetworkedBool("raisedFists") ==true) then
+	if (self.Owner:GetNWBool("raisedFists") ==true) then
 		self:SetNextPrimaryFire(CurTime() + self.Primary.Refire)
 		self:SetNextSecondaryFire(CurTime() + self.Primary.Refire)
 		
@@ -261,8 +261,8 @@ function SWEP:PrimaryAttack(right)
 	
 	
 	
-	elseif self.raiseFists == false then
-		self.Owner:notify("You must raise your fists")
+	elseif (self.Owner:GetNWBool("raisedFists") == false) then
+		self.Owner:PrintMessage( HUD_PRINTCENTER, "Your fists must be raised" )
 	end
 
 	
@@ -336,6 +336,8 @@ function SWEP:SecondaryAttack()
 			self:pickUp(ent, trace)
 		end
 		
+	elseif (self.Owner:GetNWBool("raisedFists") == false) then
+		self.Owner:PrintMessage( HUD_PRINTCENTER, "Your fists must be raised" )
 	end
 end
 
